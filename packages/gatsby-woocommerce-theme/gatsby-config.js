@@ -36,7 +36,7 @@ module.exports = ({ wordPressUrl, gatsbySiteUrl, googleTagManagerId, fbAppId }) 
           hardCacheMediaFiles: true,
         },
         production: {
-          hardCacheMediaFiles: false,
+          hardCacheMediaFiles: true,
         },
         debug: {
           graphql: {
